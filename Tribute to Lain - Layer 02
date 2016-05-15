@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://dash.ga.co/assets/jeff-bg.png');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://d3ieicw58ybon5.cloudfront.net/ex/300.300/0.19.974.974/shop/product/36832effa6834da68704459c342e095e.jpg">
+    <h1>Lain Iwakura</h1>
+    <ul>
+      <li><a href="#">ENTER</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>The Wired</h2>
+    <p>I don't understand. How can you be everywhere at once?</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Cyberia</h2>
+    <p>The girls say they're sure they saw me at Cyberia last night. They didn't believe me when I told them it wasn't me. Arisu told them to knock it off, that she believed me. Funy thing is, I think I may have been there, it just wasn't me. She wasn't like me at all.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Chisa Yamoda</h2>
+    <p>She emailed me too. Sent after she died, just like everyone else's. She says she's not really dead. She abandoned the physical world and is now alive in the Wired.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
