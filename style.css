@@ -3,12 +3,14 @@ header {
   background: url('http://dash.ga.co/assets/jeff-bg.png');
   background-size: cover;
   color: white;
+  font-family: 'Titillium Web', sans-serif;
 }
 footer {
   text-align: center;
   background: url('http://dash.ga.co/assets/jeff-bg.png');
   background-size: cover;
   color: white;
+  font-family: 'Titillium Web', sans-serif;
 }
 a {
   color: white;
@@ -33,6 +35,9 @@ article {
   max-width: 500px;
   padding: 20px;
   margin: 0 auto;
+  font-family: 'Titillium Web', sans-serif;
+
+
 }
   h1 {
     font-size: 36px;
